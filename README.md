@@ -13,7 +13,9 @@ Use this or a similar extension: https://chrome.google.com/webstore/detail/run-j
 
 and copy the following code into it
 
+```
 jQuery('button.dropdown-menu-clickable-item[data-ajax-form-sets-state=deleted]').each(function(_, b) {
   b.click();
 });
 window.location.replace("https://www.last.fm/user/gp_upload/library")
+```
